@@ -5,13 +5,13 @@ import RPi.GPIO
 import time
 
 # 串行数据输入引脚连接的GPIO口
-DS = 13
+DS = 18
 
 # 移位寄存器时钟控制引脚连接的GPIO口——上升沿有效
-SHCP = 19
+SHCP = 17
 
 # 数据锁存器时钟控制引脚连接的GPIO口——上升沿有效
-STCP = 26
+STCP = 27
 
 RPi.GPIO.setmode(RPi.GPIO.BCM)
 
